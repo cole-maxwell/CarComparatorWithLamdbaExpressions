@@ -1,7 +1,9 @@
 # CarComparatorWithLambdaExpressions
 ---- Program Description ----<br />
 
-This program separates data processing from data management by implementing a<br />
+Instead of implementing java.util.Comparator with PriceComparator, MileageComparator, and <br />
+YearComparator, this program defines the body of each compare() method as a lambda expression and<br />
+passes it to Collections.sort().<br />
 
 ---- Compile & Run ----<br />
 
